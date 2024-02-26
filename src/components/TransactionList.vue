@@ -13,18 +13,11 @@
     </ul>
 </template>
 
-<script>
-    export default {
-        setup() {
-            const transactions = [
-                { id: 1, text: 'Bus', amount: -32.00 },
-                { id: 2, text: 'Wages', amount: 1532.00 },
-                { id: 3, text: 'Pet Plan', amount: -10.00 },
-                { id: 4, text: 'Udemy', amount: -69.90 },
-            ]
-            return {
-                transactions,
-            }
-        }
-    }
+<script setup>
+    const transactions = [
+        { id: 1, text: 'Bus', amount: -32.00 },
+        { id: 2, text: 'Wages', amount: 1532.00 },
+        { id: 3, text: 'Pet Plan', amount: -10.00 },
+        { id: 4, text: 'Udemy', amount: -69.90 },
+    ]
 </script>
